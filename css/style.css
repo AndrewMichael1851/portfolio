@@ -72,13 +72,6 @@ button:focus {
     flex: 1;
 }
 
-.left-section,
-.right-section,
-.content {
-    margin: 7px 10px;
-    align-items: center;
-}
-
 .left-section {
     display: flex;
 }
@@ -86,6 +79,13 @@ button:focus {
 .right-section {
     display: flex;
     justify-content: flex-end;
+}
+
+.left-section,
+.right-section,
+.content {
+    margin: 7px 10px;
+    align-items: center;
 }
 
 .nav-link,
