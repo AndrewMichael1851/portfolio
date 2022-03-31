@@ -73,9 +73,18 @@ button:focus {
     outline: none;
 }
 
-/* Navbar Styles */
 .navbar {
     padding-top: 14px;
+}
+
+.flex-content,
+.flex-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-row {
