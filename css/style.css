@@ -130,6 +130,13 @@ button,
     background: #f3f6fa;
 }
 
+/* Dom Manip Classes */
+#dom-selector {
+    border: 2px solid red;
+    margin: 2em 1em;
+    padding: 2em 1em;
+}
+
 /* Mobile Styling */
 @media (max-width: 660px) {
 
